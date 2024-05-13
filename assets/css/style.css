@@ -251,3 +251,13 @@
 .right {
     right: 0%;
 }
+
+.round-box:hover {
+    background-color: var(--color-black);
+    transition: 0.4s;
+}
+
+.round-box:hover .circle {
+    background: var(--color-gradient-orange);
+    color: var(--color-white);
+}
