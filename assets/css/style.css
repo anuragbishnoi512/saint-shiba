@@ -175,3 +175,79 @@
     /* text-align: left; */
     color: var(--color-light-grey);
 }
+
+.bg-color-3 {
+    background-color: var(--color-grey);
+}
+
+.pt-90 {
+    padding-top: 90px;
+}
+
+.pb-180 {
+    padding-bottom: 180px;
+}
+
+.buy-font {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-48);
+    font-weight: 600;
+    line-height: 61.44px;
+    text-align: left;
+    color: var(--color-white);
+}
+
+.sec-3-para-txt {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-18);
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    color: var(--color-light-grey);
+}
+
+.round-box {
+    width: 100%;
+    border-radius: 46px;
+    background-color: #151313;
+    padding: 10px;
+    margin-top: 24px;
+}
+
+.circle {
+    width: 71px;
+    height: 71px;
+    border-radius: 50px;
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-22);
+    font-weight: 600;
+    line-height: 33px;
+    color: var(--color-black);
+    text-align: center;
+}
+
+.head-box-font {
+    font-family: " Poppins", sans-serif;
+    font-size: var(--font-size-22);
+    color: var(--color-white);
+    font-weight: 600;
+    line-height: 33px;
+    text-align: left;
+}
+
+.amet-box-font {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-18);
+    color: var(--color-light-grey);
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+}
+
+.right {
+    right: 0%;
+}
