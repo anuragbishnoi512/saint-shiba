@@ -137,13 +137,25 @@
     background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
     border: 1px solid #3D3A37;
     padding: 24px;
-    transform: translateY(-68%);
     backdrop-filter: blur(70px);
+    max-width: 1320px;
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pt-220 {
+    padding-top: 220px;
 }
 
 .sec-2-bg {
     background: #0C0B0B;
-    min-height: 100vh;
+}
+
+.sec-3-bg {
+    background: #1D1A1A;
 }
 
 .row-2-cursus {
