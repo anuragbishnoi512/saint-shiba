@@ -38,6 +38,7 @@
     --color-nav: #000000BF;
     --color-gradient-grey: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
     --color-light-grey: #B9B9B9;
+    --table-border-color: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
 }
 
 .saint-font {
@@ -408,4 +409,47 @@
 
 .border-bottom-none {
     border-bottom: none;
+}
+
+.sec-4-table .sec-4-thead tr th {
+    color: var(--color-white);
+    padding-top: 14px;
+    padding-bottom: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-wrap: nowrap;
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-18);
+    font-weight: 600;
+    line-height: 32.4px;
+    text-align: center;
+}
+
+.sec-4-table .tbody tr td {
+    color: var(--color-white);
+    opacity: 70%;
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-18);
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.sec-4-table {
+    border-radius: 10px;
+}
+
+.sec-4-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-top: none;
+}
+
+.tbody {
+    border-top: none;
 }
