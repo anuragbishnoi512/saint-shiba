@@ -713,3 +713,8 @@ table tr:last-child td:last-child {
     right: 0;
     top: 82%;
 }
+
+.fox-bg {
+    right: 10%;
+    top: 99%;
+}
