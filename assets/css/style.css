@@ -504,8 +504,8 @@ table tr:last-child td:last-child {
     position: absolute;
     width: 6px;
     background-color: white;
-    top: 12px;
-    bottom: -24px;
+    top: 168px;
+    bottom: 22%;
     left: 50%;
     margin-left: -3px;
 }
@@ -520,6 +520,7 @@ table tr:last-child td:last-child {
     top: 6px;
     right: -18px;
     left: unset;
+    z-index: 2;
 }
 
 .timeline-box-right::after {
@@ -590,4 +591,90 @@ table tr:last-child td:last-child {
 
 .timeline-box-right {
     padding: 10px 10px 10px 80px;
+}
+
+.roadmap {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-48);
+    font-weight: 600;
+    line-height: 61.44px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+/* accordion */
+.footer-bottom-img {
+    bottom: 0;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.a-container {
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%) !important;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+
+.faq {
+    color: var(--color-white);
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-48);
+    font-weight: 600;
+    line-height: 61.44px;
+    text-align: center;
+}
+
+.acc-content {
+    display: none;
+    transition: max-height 1s ease;
+    color: var(--color-white);
+    opacity: 70%;
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-18);
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    padding: 10px;
+}
+
+.label {
+    color: var(--color-white);
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-22);
+    font-weight: 600;
+    line-height: 33px;
+    text-align: left;
+    cursor: pointer;
+    padding: 15px 20px;
+}
+
+.footer-bottom-img {
+    bottom: 0;
+    right: 0;
+}
+
+.pb-400 {
+    padding-bottom: 400px;
+}
+
+.pt-73 {
+    padding-top: 73px;
+}
+
+.sec-4 {
+    padding-bottom: 25%;
+}
+
+.acc-content {
+    display: none;
+    /* Initially hide the content */
+}
+
+.active .acc-content {
+    display: block;
+    /* Display the content when the accordion item is active */
 }
