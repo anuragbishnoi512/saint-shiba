@@ -1,7 +1,10 @@
 
+let menuicon = document.querySelector(".menubox");
+let menulist = document.querySelector(".nav-items");
 
-
-
+menuicon.addEventListener("click", function () {
+    menulist.classList.toggle("show");
+})
 
 
 document.addEventListener("DOMContentLoaded", function () {
