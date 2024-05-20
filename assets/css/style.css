@@ -718,6 +718,7 @@ table tr:last-child td:last-child {
     top: 82%;
 }
 
+
 .fox-bg {
     right: 10%;
     top: 99%;
@@ -738,6 +739,18 @@ table tr:last-child td:last-child {
     width: 100%;
 }
 
+.nav-menu {
+    flex-direction: column;
+    width: 40px;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.show {
+    left: 0;
+}
+
 @media (max-width:1200px) {
     .menubox {
         width: 40px;
@@ -745,9 +758,9 @@ table tr:last-child td:last-child {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        position: absolute;
+        /* position: absolute; */
         right: 4%;
-        transform: translateY(-50%);
+        /* transform: translateY(-50%); */
         top: 50%;
         z-index: 4;
     }
@@ -782,9 +795,21 @@ table tr:last-child td:last-child {
         width: 100% !important;
     }
 
-
 }
 
+@media (max-width:992px) {
+    .blur-box {
+        border-radius: 10px;
+        background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+        border: 1px solid #3D3A37;
+        padding: 24px;
+        backdrop-filter: blur(70px);
+        max-width: 1320px;
+        width: 100%;
+        position: absolute;
+        top: 140%;
+    }
+}
 
 @media (max-width:768px) {
     .timeline {
@@ -900,4 +925,5 @@ table tr:last-child td:last-child {
     .pb-lg-180 {
         padding-bottom: 180px !important;
     }
+
 }

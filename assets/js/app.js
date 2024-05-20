@@ -1,6 +1,6 @@
 
 let menuicon = document.querySelector(".menubox");
-let menulist = document.querySelector(".nav-items");
+let menulist = document.querySelector(".navmenu");
 
 menuicon.addEventListener("click", function () {
     menulist.classList.toggle("show");
